@@ -1,0 +1,193 @@
+index.ts
+
+npm run start:dev
+============================================================ laravel product
+php spark make:seeder ProductCategoryTraditionalSnackSeeder && 
+
+php spark make:seeder ProductCategoryChiffonAndRollCakesSeeder 
+php spark make:seeder ProductCategoryDonutSeeder &&
+php spark make:seeder ProductCategoryPastryAndDanishSeeder &&
+php spark make:seeder ProductCategoryPudingSeeder &&
+php spark make:seeder ProductCategoryCakesSeeder &&
+php spark make:seeder ProductCategoryLapisSeeder &&
+php spark make:seeder ProductCategoryCookiesSeeder &&
+php spark make:seeder ProductCategoryDrinkSeeder &&
+php spark make:seeder ProductCategoryPackagingSeeder &&
+
+============laravel inventory============================
+
+
+php spark make:controller inventory/DashboardInventoryController
+php spark make:controller inventory/DwellingReportController
+php spark make:controller inventory/ProductController
+php spark make:controller inventory/ProductComboController
+php spark make:controller inventory/ProductPriceController
+php spark make:controller inventory/SupplierController
+php spark make:controller inventory/PurchaseController
+php spark make:controller inventory/IngredientRecipeController
+php spark make:controller inventory/MenuBookController
+php spark make:controller inventory/CategoryController
+php spark make:controller inventory/ServiceProductController
+php spark make:controller inventory/ExtraProductController
+php spark make:controller inventory/ProductBundlingController
+php spark make:controller inventory/DepositController
+php spark make:controller inventory/OnlineVehiclePriceController
+php spark make:controller inventory/PrintBarcode
+
+
+=============laravel human resource===========================
+php spark make:controller humanresource/DashboardHumanResource
+php spark make:controller humanresource/DepartmentController
+php spark make:controller humanresource/EmployeeController
+php spark make:controller humanresource/AttendanceController
+php spark make:controller humanresource/LeadsController
+php spark make:controller humanresource/ProjectController
+
+
+============laravel accounting=====================
+php spark make:controller accounting/DashboardAccountingController
+php spark make:controller accounting/CashBookController
+php spark make:controller accounting/RevenueController
+php spark make:controller accounting/SalesRevenueReconciliationController
+php spark make:controller accounting/ExpenseController
+php spark make:controller accounting/ExpenseCostController
+php spark make:controller accounting/RecurringPaymentController
+php spark make:controller accounting/PartnerController
+php spark make:controller accounting/FinancialReportJournalController
+php spark make:controller accounting/FinancialReportBalanceSheetController
+php spark make:controller accounting/FinancialReportIncomeStatementController
+php spark make:controller accounting/FinancialReportGeneralLedgerController
+php spark make:controller accounting/FinancialReportCashFlowStatement
+php spark make:controller accounting/FinancialReportPayableReport
+php spark make:controller accounting/FinancialReportReceivableReport
+php spark make:controller accounting/AccountController
+
+
+
+
+================laravel sales===================
+php spark make:controller sales/DashboardSalesController
+php spark make:controller sales/SalesReportController
+php spark make:controller sales/BestSellerController
+php spark make:controller sales/ProductSalesController
+php spark make:controller sales/DepartmentSalesController
+php spark make:controller sales/CategorySalesController
+php spark make:controller sales/ExtraSalesController
+php spark make:controller sales/SubExtraSalesController
+php spark make:controller sales/CustomerController
+php spark make:controller sales/CustomerGroupController
+php spark make:controller sales/SpecialPriceGroupController
+php spark make:controller sales/CustomDataCustomerController
+php spark make:controller sales/CustomerRolesController
+php spark make:controller sales/OnlineCustomerController
+php spark make:controller sales/VendorController
+php spark make:controller sales/ActivityLogController
+php spark make:controller sales/GdprRequestController
+
+===============laravel marketing==========================
+php spark make:controller marketing/DiscountController
+php spark make:controller marketing/AffiliateController
+php spark make:controller marketing/NewsletterSubsciberController
+php spark make:controller marketing/CampaignController
+php spark make:controller marketing/ActivityLogController
+
+
+=======laravel service=======================
+php spark make:controller service/TopicController
+php spark make:controller service/MessageTemplateController
+php spark make:controller service/NewsItemController
+php spark make:controller service/BlogPostController
+php spark make:controller service/BlogCommentController
+php spark make:controller service/PollController
+php spark make:controller service/ForumController
+php spark make:controller service/GeneralSettingController
+php spark make:controller service/CustomerSettingController
+php spark make:controller service/OrderSettingController
+php spark make:controller service/ShippingSettingController
+php spark make:controller service/TaxSettingController
+php spark make:controller service/CatalogSettingController
+php spark make:controller service/ShoppingCartSettingController
+php spark make:controller service/RewardPointController
+php spark make:controller service/GdprSettingController
+php spark make:controller service/VendorSettingController
+php spark make:controller service/BlogSettingController
+php spark make:controller service/NewsSettingController
+php spark make:controller service/ForumSettingController
+php spark make:controller service/MediaSettingController
+php spark make:controller service/AllSettingController
+php spark make:controller service/EmailAccountController
+php spark make:controller service/StoreController
+php spark make:controller service/CountryController
+php spark make:controller service/LanguageController
+php spark make:controller service/CurrencyController
+php spark make:controller service/PaymentMethodController
+php spark make:controller service/PaymentRestrictionController
+php spark make:controller service/TaxProviderController
+php spark make:controller service/TaxCategoryController
+php spark make:controller service/ShippingController
+php spark make:controller service/PosController
+php spark make:controller service/ProductSettingController
+php spark make:controller service/CategorySettingController
+php spark make:controller service/ManufactureSettingController
+php spark make:controller service/ProductReviewSettingController
+php spark make:controller service/ProductTagSettingController
+php spark make:controller service/SystemInformationController
+php spark make:controller service/SystemLogController
+php spark make:controller service/SystemWarningController
+php spark make:controller service/SystemMaintenanceController
+php spark make:controller service/SystemMessageQueueController
+php spark make:controller service/ScheduleTaskController
+php spark make:controller service/SearchEngineFriendlyController
+php spark make:controller service/TemplateSettingController
+php spark make:controller service/HelpTrainingController
+php spark make:controller service/HelpDocumentationController
+php spark make:controller service/HelpCommunityForumController
+php spark make:controller service/HelpPremiumSupportService
+php spark make:controller service/HelpSolutionPartnerController
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
